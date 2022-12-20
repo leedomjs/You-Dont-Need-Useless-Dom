@@ -4,8 +4,7 @@
   "description": "There is a lot of dom that we may not wanna look at.",
   "scripts": {
     "output:dev": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --watch",
-    "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify",
-    "build": "cd extension && crx pack -o ../You-Dont-Need-Useless-Dom.crx"
+    "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify"
   },
   "keywords": [
     "Chrome",
