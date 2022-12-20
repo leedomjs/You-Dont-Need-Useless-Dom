@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "You-Dont-Need-Useless-Dom",
+  "version": "1.0.0",
+  "description": "There is a lot of dom that we may not wanna look at.",
+  "icons": {
+    "16": "images/logo.png",
+    "64": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "action": {
+    "default_icon": "images/logo.png",
+    "default_title": "You Don't Need Useless Dom.",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/baidu.js"
+      ],
+      "matches": [
+        "https://jingyan.baidu.com/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/zhihu.js"
+      ],
+      "matches": [
+        "https://www.zhihu.com/*",
+        "https://www.zhihu.com/*/**"
+      ]
+    },
+    {
+      "js": [
+        "scripts/douyu.js"
+      ],
+      "matches": [
+        "https://www.douyu.com/*/**"
+      ]
+    }
+  ]
+}

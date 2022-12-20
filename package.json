@@ -1,0 +1,20 @@
+{
+  "name": "You-Dont-Need-Useless-Dom",
+  "version": "1.0.0",
+  "description": "There is a lot of dom that we may not wanna look at.",
+  "scripts": {
+    "output:dev": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --watch",
+    "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify",
+    "build": "cd extension && crx pack -o ../You-Dont-Need-Useless-Dom.crx"
+  },
+  "keywords": [
+    "Chrome",
+    "Extension"
+  ],
+  "author": "Leedom92",
+  "license": "MIT",
+  "repository": "https://github.com/leedom92/You-Dont-Need-Useless-Dom",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
