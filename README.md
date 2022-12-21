@@ -19,8 +19,8 @@
 - [ ] continue...
 
 ## <span id="example">🌰 例子</span>
-<img src="https://fuckjs.gitee.io/cdn/you-dont-need-useless-dom/has-useless-dom.png" />
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
 
 <span>⬇️</span>
 
-<img src="https://fuckjs.gitee.io/cdn/you-dont-need-useless-dom/no-useless-dom.png" />
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
