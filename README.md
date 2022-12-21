@@ -19,8 +19,12 @@
 - [ ] continue...
 
 ## <span id="example">🌰 例子</span>
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
+> 第一张图是扩展未引入时的页面，有一些广告和可能无用的元素。
+> 
+> 第二张图是开启扩展后的页面，可以看到，页面顿时清爽了不少！
 
-<span>⬇️</span>
+<img width="50%" src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
 
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
+<span>👇</span>
+
+<img width="50%" src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
