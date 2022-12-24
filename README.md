@@ -23,8 +23,8 @@
 > 
 > 第二张图是开启扩展后的页面，可以看到，页面顿时清爽了不少！
 
-<img width="50%" src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
 
 <span>👇</span>
 
-<img width="50%" src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
