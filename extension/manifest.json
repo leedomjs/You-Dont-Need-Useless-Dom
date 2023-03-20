@@ -16,6 +16,12 @@
   "content_scripts": [
     {
       "js": [
+        "scripts/ignore-ukraine.js"
+      ],
+      "matches": ["https://*/*"]
+    },
+    {
+      "js": [
         "scripts/baidu.js"
       ],
       "matches": [
