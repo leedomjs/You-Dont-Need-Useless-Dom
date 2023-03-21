@@ -13,6 +13,7 @@
   3. 将该项目的 `extension` 文件夹拖入即可。或者点击 `加载已解压的扩展程序`，选择该项目的 `extension` 文件夹即可。
 
 ## TodoList
+- [x] 去除一些网站上包含 `Support Ukraine 🇺🇦` 的DOM。(比如 `Meta` 一些开源项目的文档网站 —— [react](https://react.dev)、[react-native](https://reactnative.dev/)、[create-react-app](https://create-react-app.dev/))
 - [x] 打开百度经验，触发 `展开阅读全部`，并去掉广告部分。([举个🌰](#example))
 - [x] 打开知乎，去掉右侧信息栏，左侧内容自动撑满父容器。
 - [x] 打开斗鱼直播间，去掉右侧弹幕，左侧直播撑满父容器。
