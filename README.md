@@ -13,16 +13,27 @@
   3. 将该项目的 `extension` 文件夹拖入即可。或者点击 `加载已解压的扩展程序`，选择该项目的 `extension` 文件夹即可。
 
 ## TodoList
-- [x] 去除一些网站上包含 `Support Ukraine 🇺🇦` 的DOM。(比如 `Meta` 一些开源项目的文档网站 —— [react](https://react.dev)、[react-native](https://reactnative.dev/)、[create-react-app](https://create-react-app.dev/))
-- [x] 打开百度经验，触发 `展开阅读全部`，并去掉广告部分。([举个🌰](#example))
+- [x] 去除一些网站上包含 `Support Ukraine 🇺🇦` 的DOM。(比如 `Meta` 一些开源项目的文档网站 —— [react](https://react.dev)、[react-native](https://reactnative.dev/)、[create-react-app](https://create-react-app.dev/))([举个🌰](#example))
+- [x] 打开百度经验，触发 `展开阅读全部`，并去掉广告部分。([再举个🌰](#example2))
 - [x] 打开知乎，去掉右侧信息栏，左侧内容自动撑满父容器。
 - [x] 打开斗鱼直播间，去掉右侧弹幕，左侧直播撑满父容器。
 - [ ] continue...
 
 ## <span id="example">🌰 例子</span>
-> 第一张图是扩展未引入时的页面，有一些广告和可能无用的元素。
+> 图1是扩展未启用时，网站头部显示的 `Support Ukraine 🇺🇦` 。
 > 
-> 第二张图是开启扩展后的页面，可以看到，页面顿时清爽了不少！
+> 图2是扩展启用后，该banner被自动删除。
+
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/show-ukraine.png" />
+
+<span>👇</span>
+
+<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/hide-ukraine.png" />
+
+## <span id="example2">又是个 🌰 例子</span>
+> 图1是扩展未启用时，有一些广告和可能无用的元素。
+> 
+> 图2是扩展启用后，可以看到，页面顿时清爽了不少！
 
 <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
 
