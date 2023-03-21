@@ -45,5 +45,6 @@
         "https://www.douyu.com/*/**"
       ]
     }
-  ]
+  ],
+  "homepage_url": "https://github.com/leedom92/You-Dont-Need-Useless-Dom"
 }
