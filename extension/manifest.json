@@ -18,7 +18,7 @@
       "js": [
         "scripts/ignore-ukraine.js"
       ],
-      "matches": ["https://*/*"]
+      "matches": ["https://*/*", "http://*/*"]
     },
     {
       "js": [
