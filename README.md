@@ -35,4 +35,4 @@
 
 |  before  |  after  |
 |  ------  |  -----  |
-|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />     |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />  |
+|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />     |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />  |
