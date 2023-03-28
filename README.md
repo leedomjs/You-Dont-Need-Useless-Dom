@@ -24,19 +24,15 @@
 > 
 > 图2是扩展启用后，该banner被自动删除。
 
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/show-ukraine.png" />
-
-<span>👇</span>
-
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/hide-ukraine.png" />
+|  before  |  after  |
+|  ------  |  -----  |
+|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/show-ukraine.png" />  |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/hide-ukraine.png" /> |
 
 ## <span id="example2">又是个 🌰 例子</span>
 > 图1是扩展未启用时，有一些广告和可能无用的元素。
 > 
 > 图2是扩展启用后，可以看到，页面顿时清爽了不少！
 
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />
-
-<span>👇</span>
-
-<img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />
+|  before  |  after  |
+|  ------  |  -----  |
+|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />     |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />  |
