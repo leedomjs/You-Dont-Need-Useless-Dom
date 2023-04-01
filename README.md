@@ -26,7 +26,7 @@
 
 |  before  |  after  |
 |  ------  |  -----  |
-|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/show-ukraine.png" />  |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/hide-ukraine.png" /> |
+| <img width="1008" alt="show-ukraine" src="https://user-images.githubusercontent.com/30711792/229255167-8b247858-a5a6-4e58-ad6c-01b815570983.png"> | <img width="1008" alt="hide-ukraine" src="https://user-images.githubusercontent.com/30711792/229255190-6e15d503-7c60-403f-a524-3dcfe1039157.png"> |
 
 ## <span id="example2">又是个 🌰 例子</span>
 > 图1是扩展未启用时，有一些广告和可能无用的元素。
@@ -35,4 +35,4 @@
 
 |  before  |  after  |
 |  ------  |  -----  |
-|  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/has-useless-dom.jpg" />     |  <img src="https://github.com/leedom92/You-Dont-Need-Useless-Dom/blob/master/screenshots/no-useless-dom.jpg" />  |
+| ![has-useless-dom](https://user-images.githubusercontent.com/30711792/229255625-ec767034-e7bb-4a79-9557-47360dc12644.jpg) | ![no-useless-dom](https://user-images.githubusercontent.com/30711792/229255638-f34a7663-2770-4ad4-a805-abe8ab2d666f.jpg) |
