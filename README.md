@@ -11,7 +11,7 @@
 
 ## 使用
 - 在Chrome应用商店中安装
-  1. 在[webstore]中搜索 `useless dom`。
+  1. 在[webstore](https://chrome.google.com/webstore/category/extensions)中搜索 `useless dom`。
   2. 点击进入应用详情，然后点击 `添加至 Chrome` 即可。
 - 非Chrome应用商店安装
   1. 打开谷歌浏览器，进入扩展程序页面。在浏览器地址栏输入`chrome://extensions/`，回车进入。
