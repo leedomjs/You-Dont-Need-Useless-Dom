@@ -10,10 +10,11 @@
 当我们逛网页时经常能看到不少广告、或者其他五花八门干扰我们注意力的页面元素，这时我们就需要在打开页面的时候自动将它干掉！
 
 ## 使用
-- 在Chrome应用商店中安装
+### 方法一: 在Chrome应用商店中安装
   1. 在[webstore](https://chrome.google.com/webstore/category/extensions)中搜索 `useless dom`。
   2. 点击进入应用详情，然后点击 `添加至 Chrome` 即可。
-- 非Chrome应用商店安装
+  
+### 方法二: 非Chrome应用商店安装
   1. 打开谷歌浏览器，进入扩展程序页面。在浏览器地址栏输入`chrome://extensions/`，回车进入。
   2. 开启右上角的 `开发者模式`。
   3. 将该项目的 `extension` 文件夹拖入即可。或者点击 `加载已解压的扩展程序`，选择该项目的 `extension` 文件夹即可。
