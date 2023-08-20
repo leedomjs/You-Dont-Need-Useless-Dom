@@ -6,7 +6,7 @@
     "output:dev": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --watch",
     "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify",
     "lint": "eslint .",
-    "release": "bumpp extension"
+    "release": "bumpp"
   },
   "keywords": [
     "Chrome",
