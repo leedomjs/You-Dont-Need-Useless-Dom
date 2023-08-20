@@ -1,6 +1,6 @@
 {
   "name": "You-Dont-Need-Useless-Dom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "There is a lot of dom that we may not wanna look at.",
   "scripts": {
     "output:dev": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --watch",
