@@ -1,11 +1,12 @@
 {
   "name": "You-Dont-Need-Useless-Dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "There is a lot of dom that we may not wanna look at.",
   "scripts": {
-    "lint": "eslint .",
     "output:dev": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --watch",
-    "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify"
+    "output:prod": "npx tailwindcss -i ./input.css -o ./extension/css/output.css --minify",
+    "lint": "eslint .",
+    "release": "bumpp extension"
   },
   "keywords": [
     "Chrome",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@leedomjs/eslint-config-basic": "^0.3.0",
+    "bumpp": "^9.2.0",
     "eslint": "^8.47.0"
   }
 }
