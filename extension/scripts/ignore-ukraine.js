@@ -41,4 +41,3 @@ for (const DOM of UkraineDOM) {
   // 该dom一般为顶部banner，且高度基本不会超过100px，高度判断可防止父dom被误删
   DOM.clientHeight < 200 && DOM.remove()
 }
-
