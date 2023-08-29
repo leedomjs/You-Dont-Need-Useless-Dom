@@ -16,12 +16,20 @@
     "lint": "eslint .",
     "release": "bumpp"
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "extension/**/*.{js,json}": "eslint --fix"
+  },
   "dependencies": {
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "@leedomjs/eslint-config-basic": "^0.7.1",
     "bumpp": "^9.2.0",
-    "eslint": "^8.48.0"
+    "eslint": "^8.48.0",
+    "lint-staged": "^14.0.1",
+    "simple-git-hooks": "^2.9.0"
   }
 }
