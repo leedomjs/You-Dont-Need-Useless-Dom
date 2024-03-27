@@ -25,6 +25,7 @@
 - [x] 打开知乎，去掉右侧信息栏，左侧内容自动撑满父容器。
 - [x] 打开斗鱼直播间，去掉右侧弹幕，左侧直播撑满父容器。
 - [x] 打开bilibili哔哩哔哩首页，自动删除`广告`。
+- [x] 让 `github past sponsorship` 标签变得显眼。
 - [ ] continue...
 
 ## <span id="example">🌰 例子</span>
