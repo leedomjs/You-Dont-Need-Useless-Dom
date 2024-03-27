@@ -1,6 +1,6 @@
 {
   "name": "you-dont-need-useless-dom",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "packageManager": "pnpm@8.7.0",
   "description": "There is a lot of dom that we may not wanna look at.",
   "keywords": [
