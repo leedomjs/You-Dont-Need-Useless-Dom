@@ -61,6 +61,14 @@
       "matches": [
         "https://www.douyin.com/*"
       ]
+    },
+    {
+      "js": [
+        "scripts/github.js"
+      ],
+      "matches": [
+        "https://github.com/*"
+      ]
     }
   ]
 }
