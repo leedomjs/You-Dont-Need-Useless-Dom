@@ -1,5 +1,5 @@
 // 监听是否有新dom插入
-document.addEventListener('DOMNodeInserted', function() {
+document.addEventListener('DOMNodeInserted', function () {
   const AD_TAG_DOM = document.getElementsByClassName('bili-video-card__info--ad')
 
   if (AD_TAG_DOM.length) {
