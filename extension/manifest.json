@@ -26,7 +26,8 @@
         "scripts/baidu.js"
       ],
       "matches": [
-        "https://jingyan.baidu.com/*"
+        "https://jingyan.baidu.com/*",
+        "https://zhidao.baidu.com/*"
       ]
     },
     {
