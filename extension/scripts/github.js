@@ -42,8 +42,24 @@ function highlightFollowing() {
   }
 }
 
-// 监听是否有新dom插入
-document.addEventListener('DOMNodeInserted', function () {
-  highlightPastSponsorship()
-  highlightFollowing()
-})
+// 监听是否有新dom插入 过期 web api
+if (typeof DOMNodeInserted === 'function') {
+  document.addEventListener('DOMNodeInserted', function () {
+    highlightPastSponsorship()
+    highlightFollowing()
+  })
+}
+
+// 新的监听dom树变化的 web api
+if (typeof MutationObserver === 'function') {
+  const callback = (mutations) => {
+    highlightPastSponsorship()
+    highlightFollowing()
+  }
+
+  const observer = new MutationObserver(callback)
+  observer.observe(document, {
+    childList: true,
+    subtree: true,
+  })
+}
