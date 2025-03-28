@@ -17,7 +17,6 @@ function getParams(params) {
 }
 
 function highlightPastSponsorship() {
-  const search = window.location.search
   const PAST_SPONSORSHIP = document.getElementsByClassName('Label--secondary')
 
   if (PAST_SPONSORSHIP?.length && getParams('tab') === 'sponsoring') {
@@ -30,11 +29,10 @@ function highlightPastSponsorship() {
 }
 
 function highlightFollowing() {
-  const search = window.location.search
-  const elements = document.querySelectorAll('form[hidden="hidden"] input[name="commit"][value="Follow"]')
+  const FOLLOW_LIST = document.querySelectorAll('.Layout-main form[hidden="hidden"] input[name="commit"][value="Follow"]')
 
-  if (elements?.length && ['following', 'followers'].includes(getParams('tab'))) {
-    for (const dom of elements) {
+  if (FOLLOW_LIST?.length && ['following', 'followers'].includes(getParams('tab'))) {
+    for (const dom of FOLLOW_LIST) {
       const parent = dom.parentElement.closest('div.d-table')
       parent.style.backgroundColor = 'wheat'
       parent.style.padding = '15px'
