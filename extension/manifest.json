@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "You-Dont-Need-Useless-Dom",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "There is a lot of dom that we may not wanna look at.",
   "homepage_url": "https://github.com/leedom92/You-Dont-Need-Useless-Dom",
   "icons": {
