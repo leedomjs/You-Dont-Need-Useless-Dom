@@ -40,7 +40,7 @@ function loadZhidao() {
       const TARGET_BUTTON = document.getElementsByClassName('wgt-target-showbtn')[0]
       TARGET_BUTTON?.click()
 
-    // 点击最佳答案
+      // 点击最佳答案
       const BEST_BUTTON = document.getElementsByClassName('wgt-best-showbtn')[0]
       BEST_BUTTON?.click()
 

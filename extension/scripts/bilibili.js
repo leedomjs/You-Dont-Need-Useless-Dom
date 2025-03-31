@@ -3,7 +3,7 @@ if (typeof DOMContentLoaded === 'function') {
   document.addEventListener('DOMNodeInserted', function () {
     const AD_TAG_DOM = [
       ...[...document.getElementsByClassName('bili-video-card__info--ad')].filter(dom => !dom.querySelector('.floor-skeleton')),
-      ...[...document.getElementsByClassName('floor-single-card')].filter(dom => !dom.querySelector('.floor-skeleton'))
+      ...[...document.getElementsByClassName('floor-single-card')].filter(dom => !dom.querySelector('.floor-skeleton')),
     ]
 
     if (AD_TAG_DOM.length) {
@@ -29,7 +29,7 @@ if (typeof MutationObserver === 'function') {
     for (const mutation of mutations) {
       const AD_TAG_DOM = [
         ...[...document.getElementsByClassName('bili-video-card__info--ad')].filter(dom => !dom.querySelector('.floor-skeleton')),
-        ...[...document.getElementsByClassName('floor-single-card')].filter(dom => !dom.querySelector('.floor-skeleton'))
+        ...[...document.getElementsByClassName('floor-single-card')].filter(dom => !dom.querySelector('.floor-skeleton')),
       ]
 
       if (AD_TAG_DOM.length) {
